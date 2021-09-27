@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.slider{
+	width:75%;
+	height: 750px;
+	background: url('../pjimg/1.jpg');
+	margin: 100px auto;
+	backgroound-repeat: no-repeat;
+	animation: slide 21s infinite;
+}
+@keyframes slide{
+	25%{
+		background: url('../pjimg/2.jpg');
+	}
+	50%{
+		background: url('../pjimg/3.jpg');
+	}
+	75%{
+		background: url('../pjimg/4.jpg');
+	}
+	100%{
+		background: url('../pjimg/1.jpg');
+	}
+}
